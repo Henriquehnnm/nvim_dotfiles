@@ -18,4 +18,5 @@ return {
       map("n", "<leader>fb", telescope.buffers, { desc = "Buffers" })
       map("n", "<leader>fr", telescope.oldfiles, { desc = "Recent Files" })
     end,
-  }
+  },
+}
