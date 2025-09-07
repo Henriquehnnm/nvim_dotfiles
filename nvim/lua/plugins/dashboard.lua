@@ -21,7 +21,7 @@ return {
         -- Seus atalhos e outras customizações
         keys = {
           { key = "n", action = "<cmd>enew<cr>", desc = "New file" },
-          { key = "e", action = "<cmd>Telescope find_files<cr>", desc = "Explore file" },
+          { key = "f", action = "<cmd>Telescope find_files<cr>", desc = "Explore file" },
           { key = "r", action = "<cmd>Telescope oldfiles<cr>", desc = "Recent files" },
           { key = "c", action = "<cmd>Telescope find_files cwd=~/.config/nvim<cr>", desc = "Config" },
           { key = "q", action = "<cmd>qa<cr>", desc = "Quit" },
